@@ -1,0 +1,60 @@
+#test script for project 6
+#Author: Jing Wang, for Program Design
+#To use the script, copy it into the same directory as your scource file
+# Set execute permission for the file by issuing the command:
+# chmod +x try_USF_emails
+# Compile your program, producing a.out as the executable
+# To run the script, type
+# ./try_USF_emails
+# The user input will not be shown on the screen
+./a.out <<-EndOfInput
+emails1.txt
+EndOfInput
+#
+cat USF_emails1.txt
+echo '----------------------------------------------------'
+echo 'Expected:'
+echo 'Enter file name: emails1.txt'
+echo 'Output file name: USF_emails1.txt'
+echo 'hello_789@usf.edu'
+echo 'rofen@mail.usf.edu'
+echo 'eve8911@cse.usf.edu'
+echo 'nadryl477@health.usf.edu'
+echo 'helena8769@usf.edu'
+echo '19544_vp@mail.usf.edu'
+echo 'ahavna@usf.edu'
+echo 'stefanie@usf.edu'
+echo 'mm_abc123@mail.usf.edu'
+echo 'celestyna@cse.usf.edu'
+echo 'jeonghui@usf.edu'
+echo 'lily_tu@mail.usf.edu'
+echo 'sinta_bethari@usf.edu'
+echo 'janetlitus@mail.usf.edu'
+echo '4411catherineperez@cse.usf.edu'
+echo '===================================================='
+./a.out <<-EndOfInput
+emails2.txt
+EndOfInput
+#
+cat USF_emails2.txt
+echo '----------------------------------------------------'
+echo 'Expected:'
+echo 'Enter file name: emails2.txt'
+echo 'Output file name: USF_emails2.txt'
+echo 'tjbrwon@mail.usf.edu'
+echo 'hcardenas@usf.edu'
+echo 'ccornell24@health.usf.edu'
+echo 'faridaeid@usf.edu'
+echo 'nadryl477@health.usf.edu'
+echo 'helena8769@usf.edu'
+echo '19544_vp@mail.usf.edu'
+echo 'ahavna@usf.edu'
+echo 'stefanie@usf.edu'
+echo 'laureanog@mail.usf.edu'
+echo 'kpatel32@cse.usf.edu'
+echo 'ursula@cse.usf.edu'
+echo 'jeonghui@usf.edu'
+echo 'ggurvis@mail.usf.edu'
+echo 'garretford@usf.edu'
+echo '===================================================='
+
